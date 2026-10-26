@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5f0">
+  <meta name="description" content="The personal CV and portfolio of Nicole James L. Maloloy-on, an Information Technology student and aspiring web developer.">
+  <title>Nicole James L. Maloloy-on | IT Student &amp; Aspiring Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <div class="loader" id="loader" role="status" aria-label="Loading portfolio"><span class="loader__mark">NJ<span>.</span></span></div>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Site navigation -->
+  <header class="site-header" id="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="nav__brand" href="#home" aria-label="Nicole James L. Maloloy-on, back to top">NJ<span>.</span></a>
+      <button class="nav__menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation" aria-controls="nav-links" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav__links" id="nav-links">
+        <a class="nav__link" href="#about">About</a>
+        <a class="nav__link" href="#education">Education</a>
+        <a class="nav__link" href="#skills">Skills</a>
+        <a class="nav__link" href="#projects">Projects</a>
+        <a class="nav__link" href="#experience">Experience</a>
+        <a class="nav__link nav__link--contact" href="#contact">Contact</a>
+      </div>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false"><span class="theme-toggle__icon" aria-hidden="true">☾</span></button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Personal profile -->
+    <section class="hero section" id="home" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div class="hero__content reveal">
+          <p class="eyebrow"><span class="eyebrow__line"></span> Hello, I'm Nicole</p>
+          <h1 class="hero__title" id="hero-title">Building for the web, <em>learning every day.</em></h1>
+          <p class="hero__name">Nicole James L. Maloloy-on</p>
+          <p class="hero__role">Information Technology Student &amp; Aspiring Web Developer</p>
+          <p class="hero__intro">I’m an IT student exploring how thoughtful design and clean code can make digital experiences easier to use. I enjoy turning ideas into useful, accessible web pages.</p>
+          <div class="hero__actions"><a class="button button--primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a><a class="button button--text" href="#contact">Get in touch <span aria-hidden="true">→</span></a></div>
+          <div class="hero__meta"><span class="hero__availability"><span class="hero__dot"></span> Open to learning opportunities</span><span>Based in Panabo City, Davao del Norte</span></div>
+        </div>
+        <div class="hero__visual reveal" aria-label="Profile picture area">
+          <div class="portrait"><div class="portrait__ring"></div><div class="portrait__frame"><span class="portrait__initials" id="portrait-initials" aria-hidden="true">NJ</span><img class="portrait__image" id="profile-image" src="assets/profile.jpg" alt="Portrait of Nicole James L. Maloloy-on"></div><div class="portrait__badge"><span class="portrait__badge-icon" aria-hidden="true">✦</span><span>Curious mind.<br><strong>Creative builder.</strong></span></div></div>
+          <span class="hero__visual-caption">DESIGN · DEVELOP · DISCOVER</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Basic information and career objective -->
+    <section class="section section--soft" id="about" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <div class="section-heading reveal"><p class="eyebrow">01 / About me</p><h2 id="about-title">A little more <em>about me.</em></h2><p>Curiosity, care, and a willingness to keep improving guide how I approach technology.</p></div>
+        <div class="about__content reveal"><p class="about__lead">I’m Nicole, an Information Technology student with a growing interest in front-end development and practical digital solutions.</p><p>My career objective is to develop strong web development skills through real projects, collaboration, and continuous learning, then contribute to products that people find genuinely useful.</p><div class="info-grid"><div class="info-grid__item"><span>Location</span><strong>Maduao, Panabo City, Davao del Norte</strong></div><div class="info-grid__item"><span>Phone</span><a href="tel:+639305753089">0930 575 3089</a></div><div class="info-grid__item"><span>Age</span><strong>22</strong></div><div class="info-grid__item"><span>Career interests</span><strong>Web development · UI design · Databases</strong></div></div></div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section" id="education" aria-labelledby="education-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">02 / Education</p>
+          <h2 id="education-title">The foundation <em>I'm building.</em></h2>
+          <p>My academic path and the work that keeps me moving forward.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline__item reveal">
+            <div class="timeline__marker"></div>
+            <div class="timeline__card">
+              <div class="timeline__top"><span class="tag">Current</span></div>
+              <h3>BSIT</h3>
+              <p class="timeline__place">Bachelor of Science in Information Technology · Davao del Norte State College</p>
+              <p>Studying programming, web technologies, systems, and data while applying classroom lessons in hands-on projects.</p>
+            </div>
+          </article>
+          <article class="timeline__item reveal">
+            <div class="timeline__marker"></div>
+            <div class="timeline__card">
+              <div class="timeline__top"><span class="tag">High school</span></div>
+              <h3>A.L. Navarro National High School</h3>
+            </div>
+          </article>
+          <article class="timeline__item reveal">
+            <div class="timeline__marker"></div>
+            <div class="timeline__card">
+              <div class="timeline__top"><span class="tag">Elementary</span></div>
+              <h3>Narciso B. Galapin Elementary School</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical and professional skills -->
+    <section class="section section--soft" id="skills" aria-labelledby="skills-title"><div class="container"><div class="section-heading reveal"><p class="eyebrow">03 / Skills</p><h2 id="skills-title">Tools I use. <em>Strengths I grow.</em></h2><p>These example levels are editable self-assessments, not formal proficiency scores.</p></div><div class="skills__grid"><div class="skills__group reveal"><h3>Technical skills</h3><div class="skill" data-skill><div class="skill__label"><span>HTML</span><span>85%</span></div><div class="skill__track" role="progressbar" aria-label="HTML" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85"><span class="skill__fill skill__fill--85"></span></div></div><div class="skill" data-skill><div class="skill__label"><span>CSS</span><span>80%</span></div><div class="skill__track" role="progressbar" aria-label="CSS" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80"><span class="skill__fill skill__fill--80"></span></div></div><div class="skill" data-skill><div class="skill__label"><span>JavaScript</span><span>68%</span></div><div class="skill__track" role="progressbar" aria-label="JavaScript" aria-valuemin="0" aria-valuemax="100" aria-valuenow="68"><span class="skill__fill skill__fill--68"></span></div></div><div class="skill" data-skill><div class="skill__label"><span>Git / GitHub</span><span>70%</span></div><div class="skill__track" role="progressbar" aria-label="Git and GitHub" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70"><span class="skill__fill skill__fill--70"></span></div></div><div class="skill" data-skill><div class="skill__label"><span>Databases</span><span>62%</span></div><div class="skill__track" role="progressbar" aria-label="Databases" aria-valuemin="0" aria-valuemax="100" aria-valuenow="62"><span class="skill__fill skill__fill--62"></span></div></div></div><div class="skills__group reveal"><h3>Professional skills</h3><div class="skill" data-skill><div class="skill__label"><span>Problem solving</span><span>82%</span></div><div class="skill__track" role="progressbar" aria-label="Problem solving" aria-valuemin="0" aria-valuemax="100" aria-valuenow="82"><span class="skill__fill skill__fill--82"></span></div></div><div class="skill" data-skill><div class="skill__label"><span>Communication</span><span>78%</span></div><div class="skill__track" role="progressbar" aria-label="Communication" aria-valuemin="0" aria-valuemax="100" aria-valuenow="78"><span class="skill__fill skill__fill--78"></span></div></div><div class="skill" data-skill><div class="skill__label"><span>Teamwork</span><span>84%</span></div><div class="skill__track" role="progressbar" aria-label="Teamwork" aria-valuemin="0" aria-valuemax="100" aria-valuenow="84"><span class="skill__fill skill__fill--84"></span></div></div><div class="skills__note"><span aria-hidden="true">✳</span><p>Always learning. Update these bars to reflect your own comfort level before publishing.</p></div></div></div></div></section>
+
+    <!-- Project portfolio -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">04 / Showcase</p>
+          <h2 id="projects-title">Ideas turned into <em>projects.</em></h2>
+          <p>Explore my projects on GitHub. The images below are illustrations of each project theme.</p>
+        </div>
+        <div class="filter" role="group" aria-label="Filter projects by category">
+          <button class="filter__button is-active" type="button" data-filter="all" aria-pressed="true">All projects</button>
+          <button class="filter__button" type="button" data-filter="chat" aria-pressed="false">Chat application</button>
+          <button class="filter__button" type="button" data-filter="commerce" aria-pressed="false">E-commerce</button>
+        </div>
+        <div class="projects__grid" id="project-grid">
+          <article class="project-card reveal" data-category="chat">
+            <div class="project-card__image-wrap">
+              <img src="assets/project-chat.svg" alt="Illustration of a chat application interface" loading="lazy">
+              <span class="project-card__number">01 / PROJECT</span>
+            </div>
+            <div class="project-card__body">
+              <p class="project-card__category">Chat application</p>
+              <h3>Real-Time Chat Application</h3>
+              <p>A chat application project. Visit the repository to explore its code and implementation details.</p>
+              <div class="project-card__links">
+                <a href="https://github.com/maloloy-onnicolejames-maker/real-time-chat-application" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="commerce">
+            <div class="project-card__image-wrap">
+              <img src="assets/project-shop.svg" alt="Illustration of an e-commerce storefront interface" loading="lazy">
+              <span class="project-card__number">02 / PROJECT</span>
+            </div>
+            <div class="project-card__body">
+              <p class="project-card__category">E-commerce</p>
+              <h3>ShopEase E-commerce</h3>
+              <p>An e-commerce project. Visit the repository to explore its code and implementation details.</p>
+              <div class="project-card__links">
+                <a href="https://github.com/maloloy-onnicolejames-maker/shopease-ecommerce" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <p class="projects__empty" id="projects-empty" hidden>No projects in this category yet.</p>
+      </div>
+    </section>
+
+    <!-- Student experience -->
+    <section class="section section--soft" id="experience" aria-labelledby="experience-title">
+      <div class="container experience__grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">05 / Experience</p>
+          <h2 id="experience-title">Learning by <em>doing.</em></h2>
+          <p>As a student, I build experience through coursework, working with classmates, and practicing new skills.</p>
+        </div>
+        <div class="experience__list">
+          <article class="experience__item reveal">
+            <span class="experience__index">01</span>
+            <div>
+              <h3>Classroom coursework</h3>
+              <p>Information Technology studies</p>
+              <p>Learn computing concepts and complete class exercises that turn lessons into practical skills.</p>
+            </div>
+          </article>
+          <article class="experience__item reveal">
+            <span class="experience__index">02</span>
+            <div>
+              <h3>Group activities</h3>
+              <p>Working with classmates</p>
+              <p>Share ideas, help with group tasks, and practice communication and problem solving together.</p>
+            </div>
+          </article>
+          <article class="experience__item reveal">
+            <span class="experience__index">03</span>
+            <div>
+              <h3>Personal learning</h3>
+              <p>Web development practice</p>
+              <p>Explore HTML, CSS, and JavaScript through small exercises while continuing to improve.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact and social profiles -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact__grid">
+        <div class="contact__intro reveal">
+          <p class="eyebrow">06 / Let's connect</p>
+          <h2 id="contact-title">Let's build something <em>meaningful.</em></h2>
+          <p>I’m interested in learning, connecting with other builders, and exploring opportunities to grow.</p>
+        </div>
+        <div class="contact__links reveal">
+          <a class="contact__feature" href="https://github.com/maloloy-onnicolejames-maker" target="_blank" rel="noopener noreferrer"><span><small>SEE MY CODE</small><strong>GitHub profile</strong></span><span aria-hidden="true">↗</span></a>
+          <a class="contact__feature" href="https://www.linkedin.com/in/nicolejames-maloloy-on-63212a447/" target="_blank" rel="noopener noreferrer"><span><small>LET'S CONNECT</small><strong>LinkedIn profile</strong></span><span aria-hidden="true">↗</span></a>
+          <div class="contact__social" aria-label="Social media links">
+            <a href="https://github.com/maloloy-onnicolejames-maker" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/nicolejames-maloloy-on-63212a447/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+            <a href="https://web.facebook.com/nicole.lizada.9" target="_blank" rel="noopener noreferrer">Facebook ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer and back-to-top control -->
+  <footer class="footer"><div class="container footer__inner"><p>© <span id="year">2026</span> Nicole James L. Maloloy-on. Made with care.</p></div></footer>
+  <a class="back-to-top" id="back-to-top" href="#home" aria-label="Back to top">↑</a>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title">
+  <title id="title">Illustrated chat application interface</title>
+  <rect width="800" height="500" fill="#dbe7dc"/>
+  <circle cx="723" cy="48" r="185" fill="#c6dbca"/>
+  <rect x="79" y="53" width="642" height="394" rx="22" fill="#fffdf8"/>
+  <rect x="79" y="53" width="184" height="394" rx="22" fill="#294c40"/>
+  <path d="M240 53h23v394h-23z" fill="#294c40"/>
+  <text x="109" y="95" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#fff">Chat</text>
+  <circle cx="122" cy="157" r="18" fill="#e7aa8b"/>
+  <circle cx="122" cy="220" r="18" fill="#84aa91"/>
+  <circle cx="122" cy="283" r="18" fill="#84aa91"/>
+  <path d="M154 150h65m-65 14h47m-47 49h65m-65 14h47m-47 49h65m-65 14h47" stroke="#b7ccbc" stroke-width="7" stroke-linecap="round"/>
+  <text x="296" y="96" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="#294c40">Conversation</text>
+  <path d="M277 115h426" stroke="#e2e9df" stroke-width="2"/>
+  <rect x="290" y="147" width="240" height="57" rx="15" fill="#eff4ed"/>
+  <rect x="432" y="227" width="249" height="57" rx="15" fill="#294c40"/>
+  <rect x="290" y="307" width="215" height="57" rx="15" fill="#eff4ed"/>
+  <path d="M311 170h177m-177 15h124m18 65h206m-206 15h126m-268 65h151m-151 15h106" stroke="#9bb4a0" stroke-width="7" stroke-linecap="round"/>
+  <path d="M453 250h206m-206 15h126" stroke="#b9d5c0" stroke-width="7" stroke-linecap="round"/>
+  <rect x="289" y="392" width="392" height="33" rx="16" fill="#f0f3ee"/>
+</svg>
